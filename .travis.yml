@@ -20,4 +20,4 @@ jobs:
       local_dir: build/
       github_token: ${GITHUB_TOKEN}
       on:
-        branch: master
+        branch: main
