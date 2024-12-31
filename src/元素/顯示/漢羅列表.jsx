@@ -8,6 +8,7 @@ class 漢羅列表 extends React.Component {
     let src;
     return (
       <div>
+        <p>（因資源有限，1 IP 1分鐘內上 tsē 下載 3 句音檔。）</p>
         {綜合標音.map((綜音, i) => {
           src = (
             encodeURI("https://hapsing.ithuan.tw/bangtsam?taibun=") +
