@@ -5,6 +5,7 @@ node_js:
 branches:
   only:
   - main
+  - siu-cd
 jobs:
   include:
   - name: "check"
@@ -21,4 +22,4 @@ jobs:
       local_dir: build/
       github_token: ${GITHUB_TOKEN}
       on:
-        branch: main
+        branch: siu-cd
