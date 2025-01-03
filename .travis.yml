@@ -17,8 +17,8 @@ jobs:
     deploy:
       provider: pages:git
       fqdn: suisiann.ithuan.tw
-      edge: false
-      skip_cleanup: true
+      edge: true
+      cleanup: false
       local_dir: build/
       github_token: ${GITHUB_TOKEN}
       on:
